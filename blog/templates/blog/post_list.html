@@ -7,10 +7,19 @@
     <title>First Django</title>
 </head>
 <body>
+
     <header>
         <h1><a href="/">First Django</a></h1>
     </header>
-    
+
+    {% for post in posts %}
+    <article>
+        <time>published: {{ post.published_date }}</time>
+        <h2><a href="">{{ post.title }}</a></h2>
+        <p>{{ post.text|linebreaksbr }}</p>
+    </article>
+    {% endfor %}
+
     <article>
         <time>published: 04.09.2021, 10:20</time>
         <h2><a href="">My first post</a></h2>
