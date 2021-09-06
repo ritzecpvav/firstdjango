@@ -17,9 +17,8 @@
 h1,
 h2,
 h3,
-h4,
-h5 {
-  font-family: "Lobster", cursive;
+h4 {
+  font-family: 'Urbanist';
 }
 
 .date {
@@ -60,12 +59,12 @@ h5 {
 
 .btn-default,
 .btn-default:visited {
-  color: #c25100;
+  color: #173d5e;
   background: none;
-  border-color: #c25100;
+  border-color: #173d5e;
 }
 
 .btn-default:hover {
   color: #ffffff;
-  background-color: #c25100;
+  background-color: #173d5e;
 }
