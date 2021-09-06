@@ -53,11 +53,6 @@ h5 {
   color: #000000;
 }
 
-.post-1 h2 a,
-.post-1 h2 a:visited {
-  color: #000000;
-}
-
 .post > .date,
 .post > .actions {
   float: right;
