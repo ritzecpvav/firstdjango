@@ -1,5 +1,5 @@
 .page-header {
-  background-color: #6b0f0f;
+  background-color: #292936;
   margin-top: 0;
   margin-bottom: 40px;
   padding: 20px 20px 20px 40px;
@@ -11,6 +11,7 @@
 .page-header h1 a:active {
   color: #ffffff;
   font-size: 36pt;
+  text-align: center;
   text-decoration: none;
 }
 
@@ -22,7 +23,7 @@ h4 {
 }
 
 .date {
-  color: #3c5d79;
+  color: #292936;
 }
 
 .save {
@@ -70,7 +71,7 @@ a.logout-menu:hover {
 .post {
   margin-bottom: 70px;
   background-color: #ffffff;
-  border-color: #6b0f0f;
+  border-color: #292936;
   border-style: solid;
   border-width: 3px;
   border-radius: 10pt;
@@ -80,7 +81,7 @@ a.logout-menu:hover {
 
 .post h2 a,
 .post h2 a:visited {
-  color: #6b0f0f;
+  color: #292936;
 }
 
 .post > .date,
@@ -90,18 +91,18 @@ a.logout-menu:hover {
 
 button.btn-default,
 button.btn-default:visited {
-  color: #6b0f0f;
+  color: #292936;
   background: none;
-  border-color: #6b0f0f;
+  border-color: #292936;
 }
 
 button.btn-default:hover {
   color: #ffffff;
-  background-color: #6b0f0f;
+  background-color: #292936;
 }
 
 a.btn-default:hover {
-  border-color: #6b0f0f;
+  border-color: #292936;
   border-style: solid;
 }
 
@@ -122,4 +123,8 @@ a.sign-in {
   border-color: white;
   border-radius: 10px;
   padding: 5px 5px 5px 5px;
+}
+
+.comment {
+  margin: 20px 20px 20px 20px;
 }
